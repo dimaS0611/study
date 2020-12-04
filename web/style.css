@@ -1,0 +1,609 @@
+#header {
+    width: 100%;
+    height: 190px;
+    background-image: url(img/background.jpg);
+    margin: 0;
+    margin-top: 0px;
+    padding: 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+ 
+
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+
+#logo{
+
+    width:270px;
+    height:270px;
+    text-align: center;
+
+
+
+}
+
+#slider_img{
+    width:960px;
+    height:540px;
+    text-align: center;
+    
+}
+
+h1.head_text {
+    font-family: 'Century Gothic';
+    font-size: 60px;
+    text-align:center;
+
+}
+
+table{
+    text-align: center;
+    position: center;
+    display: flex;
+    width: 80%;
+    margin: auto;
+}
+
+.news_table{
+    width:80%;
+    font-family: 'Century Gothic';
+    margin: 0px;
+    border-spacing: 10px;
+    text-align:justify;
+    position: center;
+    color: black;
+    text-transform: none;
+    text-decoration: none;
+}
+
+table_set{
+    text-align:center;
+    position:fixed;
+    width:90%;
+    margin: auto;
+}
+.newstd {
+    margin: 5px;
+    font-size: 18px;
+    text-align: justify;
+    width: 90%;
+    height: 200px;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.newsTr {
+    padding: 10px;
+    width: 90%;
+    text-transform: none;
+    text-decoration: none;
+}
+
+
+.date{
+    font-size: 13px;
+    text-align: left;
+}
+
+#slider-wrap {
+    max-width: 960px;
+    margin: 0px auto;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    height: 540px;
+}
+
+    #slider-wrap:hover {
+        box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+    }
+
+#slider {
+    position: relative;
+    text-align: center;
+    height: 540px;
+    width: 960px;
+    overflow: hidden;
+   
+}
+
+.slide {
+    width: 100%;
+    height: 540px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+
+}
+
+.slide_title {
+    font-family: 'Century Gothic';
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1;
+}
+
+.slide_line {
+    border-color: #FF873C;
+    width: 50%;
+    margin-right: 0;
+}
+
+.slide_text_news {
+    font-family: 'Century Gothic';
+    font-size: 30px;
+    text-transform: uppercase;
+    line-height: 1em;
+    color: honeydew;
+}
+
+.slide_text {
+    text-align: end;
+    vertical-align: bottom;
+    max-width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    color: white;
+    position: absolute;
+    bottom: 20px;
+}
+
+.slide_block {
+    display: flex;
+    justify-content: flex-end;
+    width: 96%;
+    min-height: 296px;
+}
+
+.Radio-But {
+    margin-top: 10px;
+    text-align: center;
+}
+
+    .Radio-But .ctrl-select {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        background: url("button_slider.png");
+        margin: 2px;
+        overflow: hidden;
+        text-indent: -99999px;
+    }
+
+        .Radio-But .ctrl-select:hover {
+            cursor: pointer;
+            background-position: center center;
+        }
+
+        .Radio-But .ctrl-select.active {
+            background-position: center top;
+        }
+
+#prewBut, #nextBut {
+    display: block;
+    width: 40px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    overflow: hidden;
+    text-indent: -99999px;
+    background: url("img/arrow_l.png") left center no-repeat;
+    opacity: 0.5;
+    z-index: 3;
+    outline: none !important;
+}
+
+#prewBut {
+    left: 10px;
+    opacity: 0;
+    background: url(img/arrow_l.png) left center no-repeat;
+}
+
+#nextBut {
+    right: 10px;
+    background: url("img/arrow_r.png") right center no-repeat;
+    opacity: 0;
+}
+
+    #prewBut:hover, #nextBut:hover {
+        opacity: 1;
+    }
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px; /* 5px округленные углы */
+    width: 100%;
+    max-width: 400px;
+    min-width: 200px;
+    background-color: azure;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+}
+
+img {
+    border-radius: 5px 5px 0 0;
+}
+
+.world_leading {
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+    max-width: 2500px;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+    background-color: #FF873C;
+}
+
+.text_leading{
+    padding-left: 4%;
+    width: 20%;
+    box-sizing: border-box;
+}
+
+.title_leading{
+    font-family: 'Century Gothic';
+    text-transform: uppercase;
+    width: 50%;
+    padding-bottom: 5%;
+    border-bottom: 1px solid black;
+    margin: 0;
+}
+
+.main_title_leading{
+    font-size: 2.5rem;
+    font-family: 'Century Gothic';
+    line-height: 1em;
+    width: 50%;
+    margin-top: 5%;
+}
+
+.athletes_leading{
+    width: 76%;
+    height: 100%;
+    overflow: hidden;
+    padding: 1.5em 0;
+    box-sizing: border-box;
+}
+
+.slider_element{
+    outline: none;
+    width: 329px;
+    z-index: 1;
+    display: block;
+    float: left;
+    min-height: 1px;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+
+outerCard {
+    padding: 3%;
+    height: 100%;
+    width: 30%;
+}
+
+.card_slider {
+    height: 100%;
+    background-color: transparent;
+    position: relative;
+    box-shadow: 0px 5px 8px #00000029;
+    margin: 0px;
+    padding: 0;
+    width: 300px;
+}
+
+.img_leading {
+    position: relative;
+}
+
+.discipline {
+    position: absolute;
+    left: 1em;
+    bottom: 1em;
+    color: #fff;
+    font-family: 'World Athletics';
+    text-transform: uppercase;
+    text-shadow: 0 0 5px black;
+    font-size: 0.875rem;
+    line-height: 1em;
+    margin: 0;
+}
+
+.card_text_top{
+    height: auto;
+    width: 100%;
+    padding: 4%;
+}
+
+.athletes_name{
+    font-size: 1rem;
+    line-height: 1em;
+    font-family: 'Century Gothic';
+}
+
+.athletes_nationality {
+    color: #818181;
+    text-transform: uppercase;
+    font-size: 0.875rem;
+    margin: 2% 0;
+}
+
+.card_line {
+    border-color: #FF873C;
+    width: 90%;
+}
+
+.mark_content {
+    display: flex;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.mark_title{
+    font-family: 'Century Gothic';
+    margin: 0;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.athlete_mark{
+    font-family: 'Century Gothic';
+    color: #818181;
+    font-size: 1rem;
+    margin-left: 2%;
+    margin: 0;
+}
+
+.container{
+    max-width: 70%;
+}
+
+.slider {
+    position: relative;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 0px;
+    padding-right: 0px;
+    right: 0;
+    margin-left: auto;
+    
+
+}
+
+.slider__wrapper {
+    display: flex;
+    transition: transform 0.6s ease;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 3600px;
+
+}
+
+.slider__item {
+    flex: 0 0 100%;
+    max-width: 33.3333%;
+    padding-left: 5px;
+    padding-right: 5px;
+    height: 100%;
+}
+
+.slider__control {
+    position: absolute;
+    top: 50%;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.5;
+    height: 100px;
+    transform: translateY(-50%);
+    background: transparent;
+}
+
+.slider__control_show {
+    display: flex;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+    color: #fff;
+    text-decoration: none;
+    outline: 0;
+    opacity: .9;
+}
+
+.slider__control_left {
+    left: 0;
+}
+
+.slider__control_right {
+    right: 0;
+}
+
+.slider__control::before {
+    content: '';
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: transparent no-repeat center center;
+    background-size: 150% 150%;
+}
+
+.slider__control_left::before {
+    background-image: url("img/arrow_l.png");
+}
+
+.slider__control_right::before {
+    background-image: url("img/arrow_r.png");
+}
+
+#back-top {
+    position: fixed;
+    bottom: 30px;
+    left: 1%;
+    margin-left: 5px
+}
+
+    #back-top a {
+        width: 64px;
+        display: block;
+        text-align: center;
+        font: 11px/100% Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
+        text-decoration: none;
+        color: #bbb;
+        /* background color transition */
+        -webkit-transition: 1s;
+        -moz-transition: 1s;
+        transition: 1s;
+    }
+
+        #back-top a:hover {
+            color: #000;
+        }
+
+    /* графическая стрелка ВВЕРХ */
+    #back-top span {
+        width: 40px;
+        height: 50px;
+        display: block;
+        margin-bottom: 7px;
+        background: rgba(0, 0, 0, 0.00) url(img/arrowUp.png) no-repeat center center;
+        /* rounded corners */
+
+    }
+
+    #back-top a:hover span {
+        background-color: #777
+    }
+
+footer {
+    position: static; /* Фиксированное положение */
+    left: 0;
+    bottom: 0; /* Левый нижний угол */
+    padding: 10px; /* Поля вокруг текста */
+    background-color: transparent; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 98%;
+    max-width: 2500px;/* Ширина слоя */
+    height: 60px;
+    text-align: center;
+    margin: auto;
+}
+
+.social-icons {
+    text-align: center;
+    width: 10%;
+    margin: auto;
+}
+
+    .social-icons li {
+        display: inline-block;
+        list-style-type: none;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+
+        .social-icons li a {
+            border-bottom: none;
+        }
+
+        .social-icons li img {
+            width: 30px;
+            height: 30px;
+            margin-right: 20px;
+        }
+
+.container_news {
+    padding: 30px 30px 30px 30px;
+    width: 90%;
+    margin: 0px;
+    border: 0;
+    width: 100%;
+    text-align: center;
+    max-height: 2500px;
+    max-width: 2000px;
+}
+
+.col_news{
+    padding: 20px 20px 20px 5%;
+    width: 70%;
+    margin: auto;
+    text-align: left;
+    max-height: 2500px;
+}
+
+.col_pic{
+    width: 30%;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    vertical-align: text-top;
+    max-height: 2000px;
+}
+
+.col_date {
+    padding-right: 5px;
+    margin-right: 5px;
+    border-right: 1px;
+    margin-right: 5px;
+    font-family: 'Century Gothic';
+    color: white;
+}
+
+.col_news_slog {
+    color: #FF873C;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+.name_news {
+    font-family: 'Century Gothic';
+    font-size: 42px;
+    line-height: 44px;
+    position: relative;
+    color: white;
+}
+
+p{
+    color: white;
+    font-family: 'Century Gothic';
+    font-size: 20px;
+}
+
+
+
+.pic_news {
+    width: 70%;
+    height: 40%;
+    margin-left: auto;
+    padding: 0px 10px 20px 20px;
+}
+
+.main_container{
+    max-width: 2000px;
+    width: 90%;
+    max-width: 90%;
+}
