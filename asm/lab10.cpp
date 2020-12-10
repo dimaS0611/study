@@ -9,28 +9,28 @@ int swap(int num)
         push ECx
         push EDx
 
-        mov EAx,[num] // записывает num в [EAx]
+        mov EAx,[num] // Г§Г ГЇГЁГ±Г»ГўГ ГҐГІ num Гў [EAx]
         mov ECx,0
 
      lb_while:
-        cmp EAx,0 // условие пока [EAx] != 0
+        cmp EAx,0 // ГіГ±Г«Г®ГўГЁГҐ ГЇГ®ГЄГ  [EAx] != 0
         je lb_exit
 
         mov EDx,0
         mov EBx,10
-        div EBx // [EDx,EAx] / [EBx] => [EAX] (EAx частное, EDx остаток)
-        mov EDi,EDx // запоминаем остаток от деления из [EDX] в [EDi]
+        div EBx // [EDx,EAx] / [EBx] => [EAX] (EAx Г·Г Г±ГІГ­Г®ГҐ, EDx Г®Г±ГІГ ГІГ®ГЄ)
+        mov EDi,EDx // Г§Г ГЇГ®Г¬ГЁГ­Г ГҐГ¬ Г®Г±ГІГ ГІГ®ГЄ Г®ГІ Г¤ГҐГ«ГҐГ­ГЁГї ГЁГ§ [EDX] Гў [EDi]
 
-        xchg EAx,ECx // меняем местами значения [EAx] и [ЕСх]
+        xchg EAx,ECx // Г¬ГҐГ­ГїГҐГ¬ Г¬ГҐГ±ГІГ Г¬ГЁ Г§Г­Г Г·ГҐГ­ГЁГї [EAx] ГЁ [Г…Г‘Гµ]
         mul  EBx // [EAx] * [EBx]
-        xchg ECx,EAx // меняем местами значения [ECx] и  [ЕAx]
+        xchg ECx,EAx // Г¬ГҐГ­ГїГҐГ¬ Г¬ГҐГ±ГІГ Г¬ГЁ Г§Г­Г Г·ГҐГ­ГЁГї [ECx] ГЁ  [Г…Ax]
 
-        add ECx,EDi // прибавляем к ECx EDi
+        add ECx,EDi // ГЇГ°ГЁГЎГ ГўГ«ГїГҐГ¬ ГЄ ECx EDi
 
         jmp lb_while
 
     lb_exit:
-        mov [num],ECx // записываем значение [ECx] => num
+        mov [num],ECx // Г§Г ГЇГЁГ±Г»ГўГ ГҐГ¬ Г§Г­Г Г·ГҐГ­ГЁГҐ [ECx] => num
 
         pop EDx
         pop ECx
@@ -40,7 +40,7 @@ int swap(int num)
 
     return num;
 
-    /*  аналог ф-ии Acm на C++
+    /*  Г Г­Г Г«Г®ГЈ Гґ-ГЁГЁ Acm Г­Г  C++
    
     int swapNum = 0;
 
