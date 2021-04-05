@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE authors SYSTEM "data.dtd">
+<authors>
+  <author>
+    <id>1</id>
+    <name>Михаил Булгаков</name>
+    <born>15.05.1891</born>
+    <died>10.03.1940</died>
+    <composition>
+      <title>Мастер и Маргарита</title>
+      <type>роман</type>
+      <year>1966</year>
+    </composition>
+  </author>
+</authors>
