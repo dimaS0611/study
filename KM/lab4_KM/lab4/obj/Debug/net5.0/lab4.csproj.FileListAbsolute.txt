@@ -1,0 +1,15 @@
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/lab4.deps.json
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/lab4.runtimeconfig.json
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/lab4.runtimeconfig.dev.json
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/lab4.dll
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/ref/lab4.dll
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/bin/Debug/net5.0/lab4.pdb
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.csprojAssemblyReference.cache
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.GeneratedMSBuildEditorConfig.editorconfig
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.AssemblyInfoInputs.cache
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.AssemblyInfo.cs
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.csproj.CoreCompileInputs.cache
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.dll
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/ref/lab4.dll
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.pdb
+/Users/dima_semenovich/Documents/work/KM/lab4_KM/lab4/obj/Debug/net5.0/lab4.genruntimeconfig.cache

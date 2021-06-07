@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+    <div align="center">
+        <h1>Dictionary</h1><br>
+
+        <table border="1">
+            <tr>
+                <th>Key</th>
+                <th>Value</th>
+            </tr>
+
+            <tr th:each = "item : ${collection}">
+                <td th:utext="${item.key}">Key</td>
+                <td th:utext="${item.value}">Value</td>
+            </tr>
+
+        </table><br>
+
+        <h2>Change value</h2>
+        <form action="/change" method="post">
+            <input type="text" name="key" placeholder="Enter the key" class="form-control">
+            <input type="text" name="value" placeholder="Enter the value" class="form-control">
+            <button type="submit" class="btn btn-success">Change</button>
+        </form><br><br>
+    </div>
+</body>
+</html>
